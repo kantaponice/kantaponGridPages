@@ -35,6 +35,13 @@ html {
  
 }
 
+.navbar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); 
+  gap: 10px; 
+}
+
+
 
 .navbar ul {
   list-style-type: none;
@@ -128,5 +135,6 @@ html {
   margin-top: 2.5%;
   display: grid; 
   grid-template-columns: 1fr; 
+  
 
 }
